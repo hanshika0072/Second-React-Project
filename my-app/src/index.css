@@ -1,0 +1,428 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.offcanvas-title img {
+    color: black;
+    width: 100%;
+    height: 50px;
+}
+div#offcanvasNavbar {
+    background-color: #000000;
+}
+a.nav-link {
+    color: white;
+    font-size: 20px;
+}
+a.nav-link:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.navbar-topper {
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;   
+  margin: 0;
+  border-radius: 0;
+  transition: background-color 0.3s ease;
+  background-color: transparent; 
+}
+
+.navbar-topper.scrolled {
+  background-color: black !important;
+      box-shadow: 0 0 10px 1px #ffffff71;
+  padding: 18px;
+}
+.navbar-toggler {
+  border-color: white;
+}
+nav.navbar-topper.navbar.navbar-light.sticky-top {
+    padding-top: 24px !important;
+}
+.offcanvas-body {
+    flex-grow: 1;
+    padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+    overflow-y: visible !important;
+}
+button.btn-close {
+    color: white !important;
+    font-size: 30px;
+    background-color: white;
+}
+button.Get-btn.btn.btn-primary {
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+}
+button.Get-btn.btn.btn-primary:hover{
+  background-color: white;
+  color: black;
+}
+button.navbar-toggler.collapsed {
+    color: white;
+    background-color: white;
+}
+.center-logo {
+    margin-right: -110px;
+}
+.center-logo img {
+    width: 66%;
+}
+/* Header ended here */
+.Banner-main{
+  width: 100%;
+  background-image: url('src/assets/images/aboutpagebanner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+      margin-top: -85px;
+      padding-bottom: 150px;
+}
+.Banner-about {
+    padding-top: 230px;
+    color: white;
+}
+.Banner-about h2{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Banner-about p {
+    font-size: 24px;
+    font-family: emoji;
+}
+button.Banner-btn.btn.btn-primary {
+    background-color: transparent;
+    border: 2px solid white;
+}
+button.Banner-btn.btn.btn-primary:hover{
+background-color: white;
+color: black;
+}
+/* banner ended here */
+.video-main{
+  width: 100%;
+  background-image: url(assets/images/white_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.video-para p {
+    font-size: 19px;
+}
+.video-iframe {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin-top: 57px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.video-iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none; 
+}
+/* video page ended here */
+.Counter-main{
+  width: 100%;
+  padding-bottom: 100px;
+}
+.left-content h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+.inner-count {
+    border: 1px solid grey;
+    width: 20%;
+    text-align: center;
+}
+.right-count{
+  display: flex;
+  justify-content: center;
+}
+.inner-content p {
+    font-size: 14px;
+}
+.inner-count h2 {
+    font-size: 25px;
+    margin-top: 26px;
+    font-family: emoji;
+}
+/* counter section ended here */
+
+.Misson-main {
+    width: 100%;
+    padding-bottom: 100px;
+}
+.mission-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.icon-mission img {
+  width: 110px;               
+  height: auto;
+}
+.our-mission h2 {
+    font-size: 24px;
+    font-family: emoji;
+}
+.our-mission p {
+    font-size: 14px;
+    line-height: 2;
+}
+/* misson ended here */
+.journey-main{
+  width: 100%;
+  background-image: url(assets\images\OurJourneybg.jpg);
+  /* height: 100vh; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+      padding-top: 50px;
+}
+.journey-content{
+  color: white;
+  text-align: center;
+}
+.journey-content h2 {
+    font-size: 30px;
+    font-family: auto;
+}
+.journey-content p {
+    font-size: 19px;
+    font-family: math;
+}
+.boxes-main {
+    margin-top: 191px;
+}
+.boxes-year {
+    width: 83px;
+    height: 80px;
+    background: #000;
+    border: 8px solid #d9d9d9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.boxes-year h2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.year-image img {
+    width: 100%;
+}
+.year-content{
+  color: white;
+}
+.year-content h5 {
+    font-size: 28px;
+    font-family: auto;
+    margin-top: 20px;
+}
+.year-content p {
+    font-size: 16px;
+    font-family: math;
+}
+/* years section ended here */
+.contact-main{
+  width: 100%;
+  background-image: url(assets\images\form.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+}
+.contact-logo img {
+    width: 213px;
+    height: auto;
+}
+.contact-logo-left {
+    padding-top: 120px;
+}
+.contact-heading {
+    color: white;
+    margin-top: 25px;
+}
+.contact-heading h2 {
+    font-size: 38px;
+    font-family: auto;
+}
+.form-right{
+    background: #00000099;
+    padding-top: 84px;
+    color: white;
+    padding-bottom: 50px;
+}
+.right-content h4 {
+    font-size: 22px;
+    font-family: auto;
+    text-align: center;
+}
+.form-main {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: transparent; 
+  color: white; 
+}
+
+
+.transparent-input {
+  background-color: transparent !important; 
+  color: white !important; 
+  border: 1px solid white; 
+}
+
+.transparent-input::placeholder {
+  color: #ffffff !important; 
+  opacity: 0.7; 
+}
+.form{
+    margin: 20px 40px;
+}
+
+.form-btn {
+  border: 1px solid white;
+  background-color: transparent !important;
+  color: white !important;
+  transition: 0.3s;
+  width: 35%;
+  margin-top: 30px;
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border: 1px solid #cbd4e633 !important;
+    box-shadow: 0 2px 10px 1px rgb(255 255 255 / 40%) !important
+}
+
+.form-btn:hover {
+  background-color: black !important;
+  color: black;
+}
+/* Form section ended here */
+
+.Experience-main{
+  width: 100%;
+  background-image: url(assets\images\existenceimgbg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 100px;
+  padding-top: 60px;
+}
+.our-experience{
+  text-align: center;
+}
+.our-experience h2 {
+    font-size: 34px;
+    font-family: auto;
+}
+.exp-main {
+    text-align: center;
+    margin-top: 68px;
+}
+.exp-content h5 {
+    font-size: 19px;
+    font-family: auto;
+}
+.exp-content {
+    margin-top: 20px;
+}
+/* experience ended here */
+.footer-main{
+  width: 100%;
+  background-color: black;
+      padding-top: 77px;
+}
+.footer-schon img {
+    width: 150px;
+}
+.footer-para-1 p {
+    color: white;
+    font-size: 17px;
+    margin-top: 14px;
+}
+.footer-existence{
+  color: white;
+}
+.footer-existence h2 {
+    font-size: 25px;
+    font-family: auto;
+}
+.footer-existence h4 {
+    font-size: 16px;
+    font-family: emoji;
+}
+.footer-existence h6 {
+    font-size: 16px;
+    font-family: monospace;
+}
+.footer-existence h5 {
+    font-size: 16px;
+    font-family: fangsong;
+    line-height: revert;
+}
+.Quick-Links-3{
+    color: white;
+}
+.Quick-Links-3 h2{
+  color: white;
+     font-size: 25px;
+    font-family: auto;
+}
+.Quick-Links-3 ul {
+    list-style: none;
+    font-family: auto;
+}
+.Quick-Links-3 ul li {
+    font-size: 17px;
+}
+.product{
+    color: white;
+       font-size: 25px;
+    font-family: auto;
+}
+.product h2{
+    font-size: 25px;
+    font-family: auto;
+}
+.product ul{
+      list-style: none;
+}
+.product ul li {
+    font-size: 17px;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2); 
+}
+
+.footer-bottom p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  color: white;
+}
