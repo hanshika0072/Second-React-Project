@@ -13,7 +13,7 @@ function Journey() {
         <p>From Vision to reality, our journey is built on design excellence, engineering precision, and enduring trust. Each milestone reflects our commitment to shaping better spaces—one project, one partnership, one breakthrough at a time.</p>
       </div>
     <Row>
-        <Col>
+        <Col  lg={3} md={6} sm={12}> 
         <div className='boxes-main'>
             <div className='boxes-year'>
                 <h2>2013</h2>
@@ -26,7 +26,7 @@ function Journey() {
                 <p>Schon Doorways was established with a vision to redefine aluminium systems in India through engineering excellence, quality, and innovation.</p>
             </div>
         </div>
-
+           
              <div className='boxes-main'>
             <div className='boxes-year'>
                 <h2>2021</h2>
@@ -41,7 +41,7 @@ function Journey() {
         </div>
         </Col>
 
-        <Col>
+  <Col  lg={3} md={6} sm={12}> 
          <div className='boxes-main-2'>
             <div className='year-content'>
                 <h5>First 100 Projects Completed</h5>
@@ -69,7 +69,7 @@ function Journey() {
         </div>
         </Col>
 
-        <Col>
+        <Col  lg={3} md={6} sm={12}> 
            <div className='boxes-main'>
             <div className='boxes-year'>
                 <h2>2016</h2>
@@ -97,7 +97,7 @@ function Journey() {
         </div>
         </Col>
 
-            <Col>
+             <Col  lg={3} md={6} sm={12}> 
          <div className='boxes-main-2'>
             <div className='year-content'>
                 <h5>Introduced Ultra-Slim & Smart Door Systems</h5>

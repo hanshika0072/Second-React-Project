@@ -10,7 +10,7 @@ function Mission() {
     <div className='Misson-main'>
       <Container>
         <Row>
-          <Col>
+          <Col sm={12} md={6}> 
             <div className='mission-box'>
               <div className='icon-mission'>
                 <img src={MissionIcon} alt="Our Mission" />
@@ -27,7 +27,7 @@ function Mission() {
             </div>
           </Col>
 
-          <Col>
+       <Col sm={12} md={6}> 
             <div className='mission-box'>
               <div className='icon-mission'>
                 <img src={VisionIcon} alt="Our Vision" />

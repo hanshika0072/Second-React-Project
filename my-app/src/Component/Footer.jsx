@@ -9,7 +9,7 @@ function Footer() {
     <div className='footer-main'>
   <Container>
   <Row>
-    <Col>
+    <Col md={3} sm={12}>
     <div className='footer-schon'>
         <img src="src\assets\images\logo.png" alt="" />
     </div>
@@ -24,7 +24,7 @@ function Footer() {
     </div>
     </Col>
  
-    <Col>
+     <Col md={3} sm={12}>
           <div className='footer-existence'>
         <h2>Our Existence</h2>
         <h4>contact@theschon.com</h4>
@@ -32,7 +32,7 @@ function Footer() {
             <h5>+91 7019209490</h5>
      </div>
     </Col>
-    <Col>
+      <Col md={3} sm={6}>
     <div className='Quick-Links-3'>
         <h2>Quick Links</h2>
         <ul>
@@ -44,7 +44,7 @@ function Footer() {
     </div>
     </Col>
 
-       <Col>
+        <Col md={3} sm={6}>
     <div className='product'>
         <h2>Products</h2>
         <ul>

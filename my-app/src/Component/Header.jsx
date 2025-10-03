@@ -29,7 +29,7 @@ function Header() {
     <Navbar sticky="top" expand={false} className={`navbar-topper ${scrolled ? "scrolled" : ""}`}>
       <Container>
         {/* Replace hamburger with imported image */}
-        <img
+        <img className="logo-image"
           src={menuIcon}
           alt="Menu"
           style={{ cursor: 'pointer', width: '30px', height: '30px' }}
@@ -60,7 +60,7 @@ function Header() {
 
           <Container>
             <Offcanvas.Body>
-              <div className="d-flex flex-row flex-wrap align-items-center gap-5">
+              <div className="d-flex flex-row flex-wrap gap-5">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <NavDropdown title="Why Schon" id="offcanvasNavbarDropdown">
                   <NavDropdown.Item href="#About us">Action</NavDropdown.Item>
@@ -74,6 +74,11 @@ function Header() {
                 <Nav.Link href="#projects">Projects</Nav.Link>
                 <Nav.Link href="#blog">Blog</Nav.Link>
                 <Nav.Link href="#contact">Contact</Nav.Link>
+              </div>
+
+              <div className="nav-button-main">
+                <Button className="Get-btn btn btn-primary">Get In Touch ➔</Button>
+                <Button className="get-btn-2">Become a Dealer ➔</Button>
               </div>
             </Offcanvas.Body>
           </Container>
