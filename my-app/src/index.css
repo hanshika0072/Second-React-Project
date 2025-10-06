@@ -175,7 +175,7 @@ button.Banner-btn.btn.btn-primary:hover {
 /* banner ended here */
 .video-main{
   width: 100%;
-  background-image: url(assets/images/white_bg.jpg);
+  background-image: url(\bgimages\white_bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -276,7 +276,7 @@ button.Banner-btn.btn.btn-primary:hover {
 /* misson ended here */
 .journey-main{
   width: 100%;
-  background-image: url(assets\images\OurJourneybg.jpg);
+  background-image: url(\bgimages\OurJourneybg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -331,7 +331,7 @@ button.Banner-btn.btn.btn-primary:hover {
 /* years section ended here */
 .contact-main{
   width: 100%;
-  background-image: url(assets\images\form.jpg);
+  background-image: url(\bgimages\form.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -415,7 +415,7 @@ button.Banner-btn.btn.btn-primary:hover {
 
 .Experience-main{
   width: 100%;
-  background-image: url(assets\images\existenceimgbg.png);
+  background-image: url(\bgimages\existenceimgbg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
