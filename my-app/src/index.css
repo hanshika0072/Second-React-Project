@@ -965,7 +965,7 @@ button.Get-btn.btn.btn-primary {
 }
 .form-control {
     display: block;
-    width: 276px;
+   width: 295px;
     margin-left: -25px;
 }
 .contact-heading h2 {
@@ -978,6 +978,8 @@ button.Get-btn.btn.btn-primary {
 }
 button.form-btn.btn.btn-light {
     width: 100%;
+    margin-left: 28px;
+    /* text-align: center; */
 }
 .experience-img img {
     width: 126px;
