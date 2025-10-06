@@ -82,6 +82,7 @@ button.navbar-toggler.collapsed {
     color: white;
     background-color: white;
 }
+
 .center-logo {
     margin-right: -110px;
 }
@@ -113,7 +114,7 @@ button.navbar-toggler.collapsed {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('src/assets/images/aboutpagebanner.jpg');
+  background-image: url('../public/bgimages/aboutpagebanner.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -346,6 +347,7 @@ button.Banner-btn.btn.btn-primary:hover {
 }
 .contact-logo-left {
     padding-top: 120px;
+    margin-left: 115px;
 }
 .contact-heading {
     color: white;
@@ -355,11 +357,11 @@ button.Banner-btn.btn.btn-primary:hover {
     font-size: 38px;
     font-family: auto;
 }
-.form-right{
+.form-right {
     background: #00000099;
-    padding-top: 84px;
     color: white;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
+    padding: 60px 120px 60px 50px;
 }
 .right-content h4 {
     font-size: 22px;
@@ -376,9 +378,11 @@ button.Banner-btn.btn.btn-primary:hover {
 
 
 .transparent-input {
-  background-color: transparent !important; 
-  color: white !important; 
-  border: 1px solid white; 
+    /* background-color: transparent !important; */
+    color: white !important;
+    border: 1px solid white;
+    background: #2a2a2a !important;
+    padding: 14px;
 }
 
 .transparent-input::placeholder {
@@ -397,13 +401,19 @@ button.Banner-btn.btn.btn-primary:hover {
   width: 35%;
   margin-top: 30px;
 }
+.form-control{
+    padding: 14px !important;
+        width: 483px;
+}
 .form-control:focus {
     color: var(--bs-body-color);
     background-color: var(--bs-body-bg);
     border: 1px solid #cbd4e633 !important;
     box-shadow: 0 2px 10px 1px rgb(255 255 255 / 40%) !important
 }
-
+.form-control {
+    border: 1px solid #cbd4e633 !important;
+}
 .form-btn:hover {
   background-color: black !important;
   color: black;
@@ -482,6 +492,7 @@ button.Banner-btn.btn.btn-primary:hover {
 .Quick-Links-3 ul {
     list-style: none;
     font-family: auto;
+    padding-left: 0;
 }
 .Quick-Links-3 ul li {
     font-size: 17px;
@@ -497,6 +508,7 @@ button.Banner-btn.btn.btn-primary:hover {
 }
 .product ul{
       list-style: none;
+      padding-left: 0px;
 }
 .product ul li {
     font-size: 17px;
@@ -514,7 +526,20 @@ button.Banner-btn.btn.btn-primary:hover {
   color: white;
 }
 /* ==================== RESPONSIVE DESIGN ==================== */
+@media (max-width:1024px){
+    button.form-btn.btn.btn-light {
+    width: 50%;
+}
+.experience-img img {
+    width: 200px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.experience-img.second-change img {
+    width: 96px;
+}
 
+}
 @media(max-width:576px){
     .journey-main {
     padding-bottom: 30px;
@@ -594,42 +619,42 @@ button.Get-btn.btn.btn-primary {
 .one .boxes-year {
     position: absolute;
     left: 152px;
-    top: 60px;
+    top: 61px !important
 }
 .two .boxes-year {
     position: absolute;
     left: 152px;
-    top: 70px;
+    top: 68px !important;
 }
 .three .boxes-year {
     position: absolute;
     left: 152px;
-    top: 65px;
+    top: 62px !important;
 }
 .four .boxes-year {
     position: absolute;
     left: 152px;
-    top: 68px;
+    top: 64px !important;
 }
 .five .boxes-year {
     position: absolute;
     left: 152px;
-    top: 80px;
+    top: 81px !important;
 }
 .six .boxes-year {
     position: absolute;
     left: 152px;
-    top: 70px;
+    top: 69px !important;
 }
 .seven .boxes-year {
     position: absolute;
     left: 152px;
-    top: 70px;
+    top: 65px !important;
 }
 .eight .boxes-year {
     position: absolute;
     left: 152px;
-    top: 96px;
+    top: 94px !important;
 }
 .year-image img {
     width: 200px;
@@ -659,6 +684,13 @@ button.Get-btn.btn.btn-primary {
     margin-top: 0px;
     gap: 75px;
     display: flex;
+}
+.change-direction.d-flex.flex-wrap.gap-5 {
+    flex-direction: column;
+}
+.exp-content {
+    margin-top: -59px;
+    margin-left: 276px;
 }
 }
 @media(max-width:768px){
@@ -707,7 +739,7 @@ button.Get-btn.btn.btn-primary {
     gap: 20px;
 }
 .contact-heading h2 {
-    font-size: 29px;
+    font-size: 36px;
     font-family: auto;
 }
 .Quick-Links-3 {
@@ -812,6 +844,9 @@ button.Get-btn.btn.btn-primary {
     gap: 75px;
     display: flex;
 }
+.change-direction.d-flex.flex-wrap.gap-5 {
+    flex-direction: column;
+}
 
 }
 @media (max-width:360px){
@@ -831,7 +866,7 @@ button.Get-btn.btn.btn-primary {
 .one .boxes-year {
     position: absolute;
     left: 78px;
-    top: 61px;
+    top: 60px !important;
 }
 .boxes-year h2 {
     font-size:10px;
@@ -855,7 +890,7 @@ button.Get-btn.btn.btn-primary {
 .two .boxes-year {
     position: absolute;
     left: 81px;
-    top: 50px;
+    top: 50px !important;
 }
 .boxes-main-2 .year-image img {
     width: 100px;
@@ -865,7 +900,7 @@ button.Get-btn.btn.btn-primary {
 .three .boxes-year {
     position: absolute;
     left: 81px;
-    top: 68px;
+    top: 68px !important;
 }
 .bottom-box .year-image img {
     width: 100px;
@@ -875,27 +910,27 @@ button.Get-btn.btn.btn-primary {
 .four .boxes-year {
     position: absolute;
     left: 77px;
-    top: 61px;
+    top: 61px !important;
 }
 .five .boxes-year {
     position: absolute;
     left: 80px;
-    top: 60px;
+    top: 60px !important;
 }
 .six .boxes-year {
     position: absolute;
     left: 80px;
-    top: 61px;
+    top: 61px !important;
 }
 .seven .boxes-year {
     position: absolute;
     left: 79px;
-    top: 80px;
+    top: 80px !important;
 }
 .eight .boxes-year {
     position: absolute;
     left: 80px;
-    top: 67px;
+    top: 71px !important;
 }
 .journey-content p {
     font-size: 14px;
@@ -935,6 +970,15 @@ button.Get-btn.btn.btn-primary {
     width: 179px;
     height: auto;
 }
+.contact-logo-left {
+    padding-top: 120px;
+    margin-left: 40px;
+}
+.form-control {
+    display: block;
+    width: 276px;
+    margin-left: -25px;
+}
 .contact-heading h2 {
     font-size: 23px;
     font-family: auto;
@@ -942,6 +986,25 @@ button.Get-btn.btn.btn-primary {
 .our-experience h2 {
     font-size: 27px;
     font-family: auto;
+}
+button.form-btn.btn.btn-light {
+    width: 100%;
+}
+.experience-img img {
+    width: 126px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-right: 155px;
+}
+.exp-content {
+    margin-top: -43px;
+    margin-left: 118px;
+}
+.experience-img.third-change img {
+    width: 153px;
+}
+.change-direction.d-flex.flex-wrap.gap-5 {
+    flex-direction: column;
 }
 }
 @media (max-width:320px){
@@ -972,42 +1035,42 @@ button.Get-btn.btn.btn-primary {
 .one .boxes-year {
     position: absolute;
     left: 78px;
-    top: 66px;
+    top: 66px !important;
 }
 .two .boxes-year {
     position: absolute;
     left: 81px;
-    top: 57px;
+    top: 57px !important;
 }
 .three .boxes-year {
     position: absolute;
     left: 81px;
-    top: 85px;
+    top: 85px !important;
 }
 .four .boxes-year {
     position: absolute;
     left: 77px;
-    top: 57px;
+    top: 57px !important;
 }
 .five .boxes-year {
     position: absolute;
     left: 80px;
-    top: 63px;
+    top: 63px !important;
 }
 .six .boxes-year {
     position: absolute;
     left: 80px;
-    top: 67px;
+    top: 67px !important;
 }
 .seven .boxes-year {
     position: absolute;
     left: 79px;
-    top: 76px;
+    top: 76px !important;
 }
 .eight .boxes-year {
     position: absolute;
     left: 80px;
-    top: 64px;
+    top: 64px !important;
 }
 .contact-logo img {
     width: 160px;
@@ -1018,6 +1081,24 @@ button.form-btn.btn.btn-light {
 }
 .experience-img img {
     width: 186px;
+}
+.form-right {
+    background: #00000099;
+    color: white;
+    /* padding-bottom: 50px; */
+    padding: 45px 0px 36px 47px;
+}
+button.form-btn.btn.btn-light {
+    width: 62%;
+    margin-left: -32px;
+}
+.right-content h4 {
+    font-size: 23px;
+    font-family: auto;
+    text-align: left;
+}
+button.form-btn.btn.btn-light {
+    width: 65%;
 }
 .footer-para-1 p {
     color: white;
@@ -1041,5 +1122,8 @@ button.form-btn.btn.btn-light {
     font-size: 16px;
     font-family: auto;
     margin-top: 20px;
+}
+.change-direction.d-flex.flex-wrap.gap-5 {
+    flex-direction: column;
 }
 }

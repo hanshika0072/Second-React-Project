@@ -7,9 +7,9 @@ import Logo from "../assets/images/logo.png"
 function ContactForm() {
   return (
    <div className='contact-main'>
-    <Container>
+    <Container fluid>
         <Row>
-            <Col lg={6} md={6} sm={12}>
+            <Col lg={6} md={12} sm={12}>
             <div className='contact-logo-left'>
                 <div className='contact-logo'>
                       <img src={Logo} alt="Schon Logo" />
@@ -20,7 +20,7 @@ function ContactForm() {
             </div>
             </Col>
 
-            <Col lg={6} md={6} sm={12}>
+            <Col lg={6} md={12} sm={12}>
              <div className='form-right'>
               <div className='right-content'>
                 <h4>We're just a step away!</h4>

@@ -14,7 +14,7 @@ function Experience() {
      </div>
      <Container>
         <Row>
-           <Col lg={4} md={6} sm={12}>
+           <Col lg={4} md={6} sm={6}>
             <div className='exp-main'>
                <div className='experience-img'>
                <img src={Bangalore} alt="Bangalore" />
@@ -27,7 +27,7 @@ function Experience() {
 
              <Col lg={4} md={6} sm={12}>
             <div className='exp-main'>
-               <div className='experience-img'>
+               <div className='experience-img second-change'>
                     <img src={Hyderabad} alt="Hyderabad" />
                </div>
                <div className='exp-content'>
@@ -38,7 +38,7 @@ function Experience() {
 
               <Col lg={4} md={12} sm={12}>
             <div className='exp-main'>
-               <div className='experience-img'>
+               <div className='experience-img third-change'>
                   <img src={Chennai} alt="Chennai" />
                </div>
                <div className='exp-content'>

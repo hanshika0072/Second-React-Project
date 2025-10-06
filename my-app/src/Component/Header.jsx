@@ -60,7 +60,7 @@ function Header() {
 
           <Container>
             <Offcanvas.Body>
-              <div className="d-flex flex-row flex-wrap gap-5">
+              <div className=" change-direction d-flex flex-wrap gap-5">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <NavDropdown title="Why Schon" id="offcanvasNavbarDropdown">
                   <NavDropdown.Item href="#About us">Action</NavDropdown.Item>
