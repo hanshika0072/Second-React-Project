@@ -40,7 +40,7 @@ a.nav-link:hover{
   border-color: white;
 }
 nav.navbar-topper.navbar.navbar-light.sticky-top {
-    padding-top: 24px !important;
+    /* padding-top: 24px !important; */
 }
 .offcanvas-body {
     flex-grow: 1;
@@ -516,6 +516,9 @@ button.Banner-btn.btn.btn-primary:hover {
 /* ==================== RESPONSIVE DESIGN ==================== */
 
 @media(max-width:576px){
+    .journey-main {
+    padding-bottom: 30px;
+}
     .center-logo {
     margin-right: -110px;
     order: 1;
@@ -572,9 +575,471 @@ button.Get-btn.btn.btn-primary {
     color: white;
     margin-top: 26px;
 }
+
+/* changes---- */
+.card-1{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+/* .col-lg-3.col-md-6.col-sm-12.card-1 {
+    position: relative;
+} */
+.boxes-main {
+    margin-top: 0px;
+    gap: 75px;
+    /* column-gap: 58px; */
+}
+.one .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 60px;
+}
+.two .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 70px;
+}
+.three .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 65px;
+}
+.four .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 68px;
+}
+.five .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 80px;
+}
+.six .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 70px;
+}
+.seven .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 70px;
+}
+.eight .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 96px;
+}
+.year-image img {
+    width: 200px;
+    rotate: 90deg;
+    transform: scaleX(-1);
+}
+.boxes-main-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 75px;
+}
+.boxes-main-2 .year-image img{
+    width: 200px;
+    rotate: -90deg;
+    transform: scale(1);
+}
+.boxes-main.card-1.bottom-box {
+    flex-direction: row-reverse;
+}
+.bottom-box .year-image img {
+    width: 200px;
+    rotate: 90deg;
+    transform: scale(-1);
+}
+.boxes-main {
+    margin-top: 0px;
+    gap: 75px;
+    display: flex;
+}
 }
 @media(max-width:768px){
     button.form-btn.btn.btn-light {
     width: 41%;
+}
+ .journey-main {
+    padding-bottom: 30px;
+}
+    .center-logo {
+    margin-right: -110px;
+    order: 1;
+}
+.center-logo img {
+    max-width: 160px;
+    margin-left: -300px;
+}
+.logo-image{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    order: 2;
+}
+button.Get-btn.btn.btn-primary {
+    display: none;
+}
+.Banner-about {
+    padding-top: 109px;
+}
+.Banner-about h2 {
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Banner-about p {
+    font-size: 23px;
+    font-family: emoji;
+    margin-top: 10px;
+}
+.video-para p {
+    font-size: 17px;
+}
+.right-count {
+    margin-top: 38px;
+}
+.misson-main .row {
+    gap: 20px;
+}
+.contact-heading h2 {
+    font-size: 29px;
+    font-family: auto;
+}
+.Quick-Links-3 {
+    color: white;
+    margin-top: 32px;
+}
+.product {
+    margin-top: 32px;
+}
+.mission-box {
+    margin-top: 23px;
+}
+.footer-existence {
+    color: white;
+    margin-top: 26px;
+}
+
+/* changes---- */
+.card-1{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+/* .col-lg-3.col-md-6.col-sm-12.card-1 {
+    position: relative;
+} */
+.boxes-main {
+    margin-top: 0px;
+    gap: 75px;
+    /* column-gap: 58px; */
+}
+.one .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 39px;
+}
+.two .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 42px;
+}
+.three .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 25px;
+}
+.four .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 44px;
+}
+.five .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 44px;
+}
+.six .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 44px;
+}
+.seven .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 44px;
+}
+.eight .boxes-year {
+    position: absolute;
+    left: 152px;
+    top: 44px;
+}
+.icons-footer {
+    width: 160px;
+}
+.year-image img {
+    width: 200px;
+    rotate: 90deg;
+    transform: scaleX(-1);
+}
+.boxes-main-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 75px;
+}
+.boxes-main-2 .year-image img{
+    width: 200px;
+    rotate: -90deg;
+    transform: scale(1);
+}
+.boxes-main.card-1.bottom-box {
+    flex-direction: row-reverse;
+}
+.bottom-box .year-image img {
+    width: 200px;
+    rotate: 90deg;
+    transform: scale(-1);
+}
+.boxes-main {
+    margin-top: 74px;
+    gap: 75px;
+    display: flex;
+}
+
+}
+@media (max-width:360px){
+    .center-logo img {
+    max-width: 136px;
+    margin-left: -210px;
+}
+.boxes-main {
+    margin-top: 74px;
+    gap: 40px;
+}
+.year-image img {
+    width: 100px;
+    rotate: 90deg;
+    transform: scaleX(-1);
+}
+.one .boxes-year {
+    position: absolute;
+    left: 78px;
+    top: 61px;
+}
+.boxes-year h2 {
+    font-size:10px;
+    color: white;
+    text-align: center;
+}
+.boxes-year {
+    width: 52px;
+    height: 51px;
+     border: 5px solid #d9d9d9;
+}
+.year-content h5 {
+    font-size: 19px;
+    font-family: auto;
+    margin-top: 20px;
+}
+.year-content p {
+    font-size: 13px;
+    font-family: math;
+}
+.two .boxes-year {
+    position: absolute;
+    left: 81px;
+    top: 50px;
+}
+.boxes-main-2 .year-image img {
+    width: 100px;
+    rotate: -90deg;
+    transform: scale(1);
+}
+.three .boxes-year {
+    position: absolute;
+    left: 81px;
+    top: 68px;
+}
+.bottom-box .year-image img {
+    width: 100px;
+    rotate: 90deg;
+    transform: scale(-1);
+}
+.four .boxes-year {
+    position: absolute;
+    left: 77px;
+    top: 61px;
+}
+.five .boxes-year {
+    position: absolute;
+    left: 80px;
+    top: 60px;
+}
+.six .boxes-year {
+    position: absolute;
+    left: 80px;
+    top: 61px;
+}
+.seven .boxes-year {
+    position: absolute;
+    left: 79px;
+    top: 80px;
+}
+.eight .boxes-year {
+    position: absolute;
+    left: 80px;
+    top: 67px;
+}
+.journey-content p {
+    font-size: 14px;
+    font-family: math;
+}
+.boxes-main {
+    margin-top: 26px;
+    gap: 40px;
+}
+.Banner-about p {
+    font-size: 21px;
+    font-family: emoji;
+    margin-top: 10px;
+}
+.Banner-about h2 {
+    font-size: 37px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Banner-main {
+    padding-bottom: 172px;
+}
+.video-para p {
+    font-size: 13px;
+}
+.left-content h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.left-content p {
+    font-size: 15px;
+}
+.icon-mission img {
+    width: 72px;
+    height: auto;
+}
+.contact-logo img {
+    width: 179px;
+    height: auto;
+}
+.contact-heading h2 {
+    font-size: 23px;
+    font-family: auto;
+}
+.our-experience h2 {
+    font-size: 27px;
+    font-family: auto;
+}
+}
+@media (max-width:320px){
+    .center-logo img {
+    max-width: 136px;
+    margin-left: -183px;
+}
+.Banner-about h2 {
+    font-size: 33px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Banner-about p {
+    font-size: 18px;
+    font-family: emoji;
+    margin-top: 10px;
+}
+.icon-mission img {
+    width: 56px;
+    height: auto;
+}
+.our-mission p {
+    font-size: 12px;
+}
+.our-mission h2 {
+    font-size: 22px;
+    font-family: emoji;
+}
+.one .boxes-year {
+    position: absolute;
+    left: 78px;
+    top: 66px;
+}
+.two .boxes-year {
+    position: absolute;
+    left: 81px;
+    top: 57px;
+}
+.three .boxes-year {
+    position: absolute;
+    left: 81px;
+    top: 85px;
+}
+.four .boxes-year {
+    position: absolute;
+    left: 77px;
+    top: 57px;
+}
+.five .boxes-year {
+    position: absolute;
+    left: 80px;
+    top: 63px;
+}
+.six .boxes-year {
+    position: absolute;
+    left: 80px;
+    top: 67px;
+}
+.seven .boxes-year {
+    position: absolute;
+    left: 79px;
+    top: 76px;
+}
+.eight .boxes-year {
+    position: absolute;
+    left: 80px;
+    top: 64px;
+}
+.contact-logo img {
+    width: 160px;
+    height: auto;
+}
+button.form-btn.btn.btn-light {
+    width: 46%;
+}
+.experience-img img {
+    width: 186px;
+}
+.footer-para-1 p {
+    color: white;
+    font-size: 14px;
+    margin-top: 14px;
+}
+.footer-schon img {
+    width: 140px;
+}
+.inner-content p {
+    font-size: 12px;
+}
+.counter h2 {
+    font-size: 18px;
+    font-family: inherit;
+}
+.experience-img img {
+    width: 132px;
+}
+.year-content h5 {
+    font-size: 16px;
+    font-family: auto;
+    margin-top: 20px;
 }
 }
