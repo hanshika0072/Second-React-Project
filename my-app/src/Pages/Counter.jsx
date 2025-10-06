@@ -5,10 +5,9 @@ import CountUp from 'react-countup'
 import { useInView } from 'react-intersection-observer'
 
 function Counter() {
-  // 👇 initialize intersection observer
   const { ref, inView } = useInView({
-    triggerOnce: true, // animate only once
-    threshold: 0.2     // start when 20% visible
+    triggerOnce: true, 
+    threshold: 0.2   
   })
 
   return (
@@ -38,7 +37,6 @@ function Counter() {
           </Col>
 
           <Col lg={6} md={12} sm={12}>
-            {/* attach ref here 👇 */}
             <div className="right-count" ref={ref}>
 
               <div className="counter col_fourth col_fourth-1">
