@@ -964,8 +964,8 @@ button.Get-btn.btn.btn-primary {
     margin-left: 40px;
 }
 .form-control {
-    display: block;
-   width: 295px;
+    /* display: block; */
+   width: 295px !important;
     margin-left: -25px;
 }
 .contact-heading h2 {
@@ -979,7 +979,6 @@ button.Get-btn.btn.btn-primary {
 button.form-btn.btn.btn-light {
     width: 100%;
     margin-left: 28px;
-    /* text-align: center; */
 }
 .experience-img img {
     width: 126px;
