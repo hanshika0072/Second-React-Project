@@ -39,9 +39,6 @@ a.nav-link:hover{
 .navbar-toggler {
   border-color: white;
 }
-nav.navbar-topper.navbar.navbar-light.sticky-top {
-    /* padding-top: 24px !important; */
-}
 .offcanvas-body {
     flex-grow: 1;
     padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
@@ -87,7 +84,7 @@ button.navbar-toggler.collapsed {
     margin-right: -110px;
 }
 .center-logo img {
-  max-width: 160px;
+    max-width: 193px;
 }
 .nav-button-main{
     display: flex;
@@ -114,7 +111,7 @@ button.navbar-toggler.collapsed {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../public/bgimages/aboutpagebanner.jpg');
+  background-image: url('/bgimages/aboutpagebanner.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -280,7 +277,6 @@ button.Banner-btn.btn.btn-primary:hover {
 .journey-main{
   width: 100%;
   background-image: url(assets\images\OurJourneybg.jpg);
-  /* height: 100vh; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -339,7 +335,6 @@ button.Banner-btn.btn.btn-primary:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* height: 100vh; */
 }
 .contact-logo img {
     width: 213px;
@@ -360,7 +355,6 @@ button.Banner-btn.btn.btn-primary:hover {
 .form-right {
     background: #00000099;
     color: white;
-    /* padding-bottom: 50px; */
     padding: 60px 120px 60px 50px;
 }
 .right-content h4 {
@@ -378,7 +372,6 @@ button.Banner-btn.btn.btn-primary:hover {
 
 
 .transparent-input {
-    /* background-color: transparent !important; */
     color: white !important;
     border: 1px solid white;
     background: #2a2a2a !important;
@@ -471,15 +464,18 @@ button.Banner-btn.btn.btn-primary:hover {
 .footer-existence h4 {
     font-size: 16px;
     font-family: emoji;
+    line-height: 2;
 }
 .footer-existence h6 {
     font-size: 16px;
     font-family: monospace;
+    line-height: 2;
 }
 .footer-existence h5 {
     font-size: 16px;
     font-family: fangsong;
     line-height: revert;
+    line-height: 2;
 }
 .Quick-Links-3{
     color: white;
@@ -496,6 +492,7 @@ button.Banner-btn.btn.btn-primary:hover {
 }
 .Quick-Links-3 ul li {
     font-size: 17px;
+    line-height: 2.4;
 }
 .product{
     color: white;
@@ -506,9 +503,10 @@ button.Banner-btn.btn.btn-primary:hover {
     font-size: 25px;
     font-family: auto;
 }
-.product ul{
-      list-style: none;
-      padding-left: 0px;
+.product ul {
+    list-style: none;
+    padding-left: 0px;
+    line-height: 2;
 }
 .product ul li {
     font-size: 17px;
@@ -607,14 +605,9 @@ button.Get-btn.btn.btn-primary {
     position: relative;
     align-items: center;
 }
-
-/* .col-lg-3.col-md-6.col-sm-12.card-1 {
-    position: relative;
-} */
 .boxes-main {
     margin-top: 0px;
     gap: 75px;
-    /* column-gap: 58px; */
 }
 .one .boxes-year {
     position: absolute;
@@ -764,13 +757,9 @@ button.Get-btn.btn.btn-primary {
     align-items: center;
 }
 
-/* .col-lg-3.col-md-6.col-sm-12.card-1 {
-    position: relative;
-} */
 .boxes-main {
     margin-top: 0px;
     gap: 75px;
-    /* column-gap: 58px; */
 }
 .one .boxes-year {
     position: absolute;
@@ -1085,7 +1074,6 @@ button.form-btn.btn.btn-light {
 .form-right {
     background: #00000099;
     color: white;
-    /* padding-bottom: 50px; */
     padding: 45px 0px 36px 47px;
 }
 button.form-btn.btn.btn-light {
