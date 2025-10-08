@@ -965,7 +965,7 @@ button.Get-btn.btn.btn-primary {
 }
 .form-control {
     /* display: block; */
-   width: 295px !important;
+   width: 100%;
     margin-left: -25px;
 }
 .contact-heading h2 {
