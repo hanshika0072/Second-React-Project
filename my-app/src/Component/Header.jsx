@@ -63,8 +63,8 @@ function Header() {
               <div className=" change-direction d-flex flex-wrap gap-5">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <NavDropdown title="Why Schon" id="offcanvasNavbarDropdown">
-                  <NavDropdown.Item href="#About us">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#One-Stop-Housing-Solution">One-Stop-Housing-Solution</NavDropdown.Item>
+                  <NavDropdown.Item href="#About us">About us</NavDropdown.Item>
+                  <NavDropdown.Item href="#One-Stop-Housing-Solution">One stop housing solutions</NavDropdown.Item>
                   <NavDropdown.Item href="#Quality-Assurance">Quality-Assurance</NavDropdown.Item>
                   <NavDropdown.Item href="#Sustainablity">Sustainablity</NavDropdown.Item>
                   <NavDropdown.Divider />

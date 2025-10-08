@@ -809,6 +809,10 @@ span .navbar-brand{
     rotate: 90deg;
     transform: scaleX(-1);
 }
+.try-gori {
+    max-width: 45%;
+    flex: 0 0 45%;
+}
 .boxes-main-2 {
     display: flex;
     flex-direction: row-reverse;
@@ -843,12 +847,15 @@ span .navbar-brand{
     max-width: 136px;
     /* margin-left: -210px; */
 }
+.journey-main, .Counter-main, .Experience-main, .contact-main, .Misson-main, .video-main, .Banner-main, .footer-main{
+    padding: 40px 20px;
+}
 .boxes-main {
     margin-top: 74px;
-    gap: 40px;
+    gap: 30px;
 }
 .boxes-main-2 {
-    gap: 40px;
+    gap: 30px;
 }
 .year-image img {
     width: 100px;
@@ -858,7 +865,7 @@ span .navbar-brand{
 .one .boxes-year {
     position: absolute;
     left: 78px;
-    top: 60px !important;
+    top: 76px !important;
 }
 .boxes-year h2 {
     font-size:10px;
@@ -871,7 +878,7 @@ span .navbar-brand{
      border: 5px solid #d9d9d9;
 }
 .year-content h5 {
-    font-size: 19px;
+    font-size: 16px;
     font-family: auto;
     margin-top: 20px;
 }
@@ -882,7 +889,7 @@ span .navbar-brand{
 .two .boxes-year {
     position: absolute;
     left: 81px;
-    top: 50px !important;
+    top: 73px !important;
 }
 .boxes-main-2 .year-image img {
     width: 100px;
@@ -892,7 +899,7 @@ span .navbar-brand{
 .three .boxes-year {
     position: absolute;
     left: 81px;
-    top: 68px !important;
+    top: 74px !important;
 }
 .bottom-box .year-image img {
     width: 100px;
@@ -902,17 +909,17 @@ span .navbar-brand{
 .four .boxes-year {
     position: absolute;
     left: 77px;
-    top: 61px !important;
+    top: 74px !important;
 }
 .five .boxes-year {
     position: absolute;
     left: 80px;
-    top: 60px !important;
+    top: 74px !important;
 }
 .six .boxes-year {
     position: absolute;
     left: 80px;
-    top: 61px !important;
+    top: 83px !important;
 }
 .seven .boxes-year {
     position: absolute;
@@ -922,7 +929,7 @@ span .navbar-brand{
 .eight .boxes-year {
     position: absolute;
     left: 80px;
-    top: 71px !important;
+    top:83px !important;
 }
 .journey-content p {
     font-size: 14px;
@@ -930,7 +937,7 @@ span .navbar-brand{
 }
 .boxes-main {
     margin-top: 26px;
-    gap: 40px;
+    /* gap: 40px; */
 }
 .Banner-about p {
     font-size: 21px;
@@ -999,7 +1006,7 @@ button.form-btn.btn.btn-light {
     margin-left: 118px;
 }
 .experience-img.third-change img {
-    width: 153px;
+    /* width: 153px; */
 }
 .change-direction.d-flex.flex-wrap.gap-5 {
     flex-direction: column;
@@ -1008,7 +1015,7 @@ button.form-btn.btn.btn-light {
 @media (max-width:320px){
     .center-logo img {
     max-width: 136px;
-    margin-left: -183px;
+    /* margin-left: -183px; */
 }
 .Banner-about h2 {
     font-size: 33px;

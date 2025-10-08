@@ -32,7 +32,7 @@ function Footer() {
             <h5>+91 7019209490</h5>
      </div>
     </Col>
-      <Col md={3} sm={6}>
+      <Col md={3} sm={6} xs={6}>
     <div className='Quick-Links-3'>
         <h2>Quick Links</h2>
         <ul>
@@ -44,7 +44,7 @@ function Footer() {
     </div>
     </Col>
 
-        <Col md={3} sm={6}>
+        <Col md={3} sm={6} xs={6}>
     <div className='product'>
         <h2>Products</h2>
         <ul>
